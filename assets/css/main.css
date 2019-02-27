@@ -8,6 +8,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -28,7 +29,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-/* Style all font awesome icons */
+/* Style font awesome social icons */
 .fa {
   padding: 10px;
   text-align: left;
@@ -36,4 +37,5 @@ footer {
 }
 .fa:hover {
   opacity: 0.6;
+  color: #f9009a;
 }
