@@ -59,7 +59,6 @@ h3 {
 
 footer {
     border-top: 1px solid #d5d5d5;
-    /* font-size: .8em; */
 }
 
 /* Style font awesome social icons */
@@ -76,24 +75,20 @@ footer {
 } */
 
 .fa {
-	color: #5f6680;
+	color: #d5d5d5;
   font-size:22px;
   display:inline-block;
   padding: 10px 10px;
   margin-bottom: -1px;
-  margin-top:2px;
-  transition: all 0.2s ease 0s;
-  -moz-transition: all 0.2s ease 0s;
-  -webkit-transition: all 0.2s ease 0s;
-  -o-transition: all 0.2s ease 0s;
+  margin-top: 2px;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 }
 
 .fa:hover{
 	color: #fff;
-	transition: all 0.2s ease 0s;
-	-moz-transition: all 0.2s ease 0s;
-	-webkit-transition: all 0.2s ease 0s;
-	-o-transition: all 0.2s ease 0s;
 }
 
 .fa.fa-twitter:hover {
