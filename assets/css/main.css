@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -8,18 +8,22 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+/* 'Helvetica', 'Arial', 'Sans-Serif'/ */
 
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul > li  {padding:0;border:0 none;position: relative; outline: none;
+nav ul > li  {
+  padding: 0;
+  border: 0 none;
+  position: relative;
+  outline: none;
 }
-
-nav ul > li{
-  color: #5f00f9;
-  z-index: 1;
+::selection {
+    background: #5f00f9;
+    color: #fff;
 }
 
 nav ul > li:before {
@@ -31,7 +35,6 @@ nav ul > li:before {
   left: 0;
   background: #f9009a;
   visibility: hidden;
-  border-radius: 5px;
   transform: scaleX(0);
   transition: .25s linear;
 }
@@ -52,30 +55,23 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-h3 {
+h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+h4 {
+    /* font-size: 2em; */
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #D5D5D5;
 }
 
 /* Style font awesome social icons */
-/* .fa {
-  font-size: 30px;
-  padding: 10px;
-  text-align: left;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.6;
-  color: #f9009a;
-} */
-
 .fa {
-	color: #d5d5d5;
+	color: #D5D5D5;
   font-size:22px;
   display:inline-block;
   padding: 10px 10px;
@@ -98,11 +94,24 @@ footer {
 	background: #0077B5;
 }
 .fa.fa-github:hover {
-  background: #6e5494;
+  background: #6E5494;
 }
 .fa.fa-instagram:hover {
   background: #E1306C;
 }
 .fa.fa-envelope:hover {
   background: #767676;
+}
+
+#hemocyte-gif {
+  box-shadow: 0.2em 0.2em 0.5em #333;
+  border-radius: 0.2em;
+}
+
+.top-row {
+    display:inline-block;
+}
+
+figcaption {
+    text-align: left;
 }
