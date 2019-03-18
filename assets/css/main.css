@@ -137,25 +137,11 @@ footer {
     display:inline-block;
 }
 
-/* sciencedisrupt project page */
-/* .content-block{
-  display: block;
-  background-color:#F2F2F2;
-  border-radius: 15px 15px 15px 15px;
-  float: left;
-  width: 25%;
-  padding: 5px;
-  margin: 10px;
-  position: relative;
-} */
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-
 /* ~~~~~~~ */
 /* about page block style  */
 /* 2 block page */
